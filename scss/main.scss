@@ -1,0 +1,10 @@
+@import "partials/animations";
+@import "partials/mixins";
+
+div{
+  display: inline-block;
+}
+
+.flower_holder{
+  @include flowerMixin(3);
+}

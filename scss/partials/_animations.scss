@@ -1,0 +1,10 @@
+@keyframes petalsAppear {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+
+@keyframes petalFall {
+  0% {opacity: 1; z-index: 100;}
+  50% {left: -10vw; top: 7vh; opacity: 0.5;}
+  100% {left: 9vw; top: 15vh; opacity: 0; z-index: 100;}
+}
